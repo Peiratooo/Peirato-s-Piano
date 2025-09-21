@@ -1,59 +1,81 @@
-# Welcome to Your New Wails3 Project!
 
-Congratulations on generating your Wails3 application! This README will guide you through the next steps to get your project up and running.
 
-## Getting Started
+# 💖 [支持我们的新产品 Beautifolder](https://store.steampowered.com/app/3948380/Beautifolder/) ✨
 
-1. Navigate to your project directory in the terminal.
+Beautifolder 让您轻松美化和个性化文件夹🗂️。它支持快速更换文件夹图标🎨、批量管理📂以及多种风格的主题图标🖼️。您可以直接使用内置的精美图标，也可以发挥创意💡，制作属于自己的专属图标，并与他人分享🌟。
 
-2. To run your application in development mode, use the following command:
+## 主要功能 🚀
 
-   ```
-   wails3 dev
-   ```
+- **一键更换文件夹图标** 🖱️：打造整齐美观的桌面💻。  
+- **丰富的主题图标库** 📚：轻松找到心仪风格🎯。  
+- **支持自制图标** ✏️：释放您的创意灵感🌈。  
+- **批量操作** ⚡：高效管理海量文件夹📂📂📂。  
+- **分享与下载社区图标资源** 🌐：让个性化更简单💖。  
 
-   This will start your application and enable hot-reloading for both frontend and backend changes.
+Beautifolder 专注于为您的桌面和文件系统带来全新体验，让日常操作更美观、更有乐趣🎉。
 
-3. To build your application for production, use:
+## [点击前往Steam商店页面](https://store.steampowered.com/app/3948380/Beautifolder/)
 
-   ```
-   wails3 build
-   ```
+[<img src="./beautifolder.png" style="zoom: 67%;" />](https://store.steampowered.com/app/3948380/Beautifolder/)
 
-   This will create a production-ready executable in the `build` directory.
+---
 
-## Exploring Wails3 Features
+# 🎹 Peirato's Piano
 
-Now that you have your project set up, it's time to explore the features that Wails3 offers:
+✨ 一个基于 **Wails3 + Vue3** 开发的跨平台轻量桌面钢琴程序。  
+支持 **MIDI 键盘** 与 **电脑打字键盘** 演奏，实时显示 **和弦名称**，并可自定义主题颜色。  
 
-1. **Check out the examples**: The best way to learn is by example. Visit the `examples` directory in the `v3/examples` directory to see various sample applications.
+## 📖 功能特性
 
-2. **Run an example**: To run any of the examples, navigate to the example's directory and use:
+- 🎼 **实时钢琴键盘**：打开软件即可开始演奏  
+- 🎹 **支持 MIDI 键盘**：自动识别外接 MIDI 设备  
+- ⌨️ **键盘演奏模式**：使用电脑打字键盘也能弹琴  
+- 💡 **按键亮起效果**：演奏时对应的钢琴键会高亮  
+- 🎶 **和弦识别**：自动识别当前演奏的和弦并显示  
+- 🎨 **主题自定义**：支持修改主题颜色，打造专属风格  
 
-   ```
-   go run .
-   ```
+---
 
-   Note: Some examples may be under development during the alpha phase.
+## 📸 截图预览
 
-3. **Explore the documentation**: Visit the [Wails3 documentation](https://v3alpha.wails.io/) for in-depth guides and API references.
+图片加载失败
 
-4. **Join the community**: Have questions or want to share your progress? Join the [Wails Discord](https://discord.gg/JDdSxwjhGf) or visit the [Wails discussions on GitHub](https://github.com/wailsapp/wails/discussions).
+[查看链接](./PixPin_2025-06-06_01-42-06.png)
 
-## Project Structure
+## 📦 安装与运行
 
-Take a moment to familiarize yourself with your project structure:
+### 下载 Release
+前往 [Releases](https://github.com/Peiratooo/Peirato-s-Piano/releases/tag/1.1.6) 下载最新版本，解压后运行即可。
 
-- `frontend/`: Contains your frontend code (HTML, CSS, JavaScript/TypeScript)
-- `main.go`: The entry point of your Go backend
-- `app.go`: Define your application structure and methods here
-- `wails.json`: Configuration file for your Wails project
+### 从源码构建
+```bash
+# 克隆仓库
+git clone https://github.com/Peiratooo/Peirato-s-Piano
 
-## Next Steps
+# 同步依赖
+go mod tidy
 
-1. Modify the frontend in the `frontend/` directory to create your desired UI.
-2. Add backend functionality in `main.go`.
-3. Use `wails3 dev` to see your changes in real-time.
-4. When ready, build your application with `wails3 build`.
+# 启动开发模式
+wails3 dev
 
-Happy coding with Wails3! If you encounter any issues or have questions, don't hesitate to consult the documentation or reach out to the Wails community.
+# 构建发布版本
+wails3 task release
+```
+
+*注意：构建前需安装 [Wails 3](https://wails.io/) 和 Go 环境。*
+
+---
+
+## 📜 许可证
+
+本项目基于 MIT License 开源。
+你可以自由使用、修改、分发，但请保留版权信息。
+
+------
+
+## 💡 致谢
+
+- [Wails](https://wails.io/) — 跨平台桌面应用框架。
+- [Vue.js](https://vuejs.org/) — 前端框架。
+
+> 🎶 如果觉得本项目对你有帮助，欢迎点个 ⭐ Star 支持一下！
